@@ -1,0 +1,127 @@
+.app {
+    .app_content {
+        width: 1200px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        .content_left {
+            width: 150px;
+            height: 100%;
+            flex-shrink: 0;
+            margin: 0 10px;
+            position: relative;
+            // top: 130px;
+            .left_item {
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #fff;
+                cursor: pointer;
+                font-weight: bold;
+                margin-bottom: 10px;
+                border-radius: 30px;
+                color: #fff;
+                font-size: 15px;
+            }
+        }
+        .content_right {
+            overflow: auto;
+            width: 750px;
+            color: #fff;
+            background: rgba(0,0,0,0.20);
+            .content_item {
+                border-bottom: 1px solid rgba(255 ,255 ,255 , 0.35);
+                padding: 15px 20px;
+                cursor: pointer;
+                display: block;
+                border-radius: 10px;
+            }
+            .content_top {
+                display: flex;
+                justify-content: space-between;
+                .item_catetory {
+                    color: #a8c9ea;
+                }
+                .item_title{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+            }
+            .item_font {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2; /* 设置行数 */
+                -webkit-box-orient: vertical;
+                color: #f5f4f4;
+            }
+        }
+        .content_person {
+            width: 300px;
+            height: 300px;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            color: #fff;
+            // top: 130px;
+            img {
+                width: 120px;
+                height: 120px;
+                border-radius: 100%;
+                margin: 20px auto;
+            }
+            .person_name {
+                font-size: 25px;
+            }
+            .person_company {
+                margin-top: 10px;
+            }
+            .person_opera {
+                height: 50px;
+                border-top: 1px solid #ccc;
+                margin-top: 15px;
+                display: flex;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                font-weight: bold;
+                cursor: pointer;
+                div {
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 18px;
+                }
+                .opera_left {
+                    border-right: 1px solid #ccc;
+                }
+            }
+            .person_block {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .person_change {
+                position: absolute;
+                cursor: pointer;
+                right: 5px;
+                top: 5px;
+            }
+        }
+        .item_time {
+            margin-top: 5px;
+            color: #ffb494;
+        }
+        
+    }
+}
+
+.selected {
+    background: linear-gradient(to right, #ff9569 0%, #e92758 100%);
+    color: #fff;
+}

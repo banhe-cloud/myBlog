@@ -1,0 +1,95 @@
+.myLife {
+    margin: 0px auto;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    .myLife_left {
+        width: 700px;
+        min-height: 600px;
+        background-color: #fff;
+        background-image: linear-gradient(90deg, #fffaf5 3%, transparent 0),
+            linear-gradient(1turn, #fffaf5 3%, transparent 0);
+        background-size: 20px 20px;
+        background-position: 50%;
+        margin-right: 20px;
+        .left_top {
+            position: relative;
+            .top_bg {
+                width: 100%;
+            }
+            .top_info{
+                position: absolute;
+                bottom: -48px;
+                right: 15px;
+                .info_top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    .info_name{
+                        color: #fff;
+                        font-weight: bold;
+                        margin-right: 10px;
+                        font-size: 18px;
+                    }
+                    .info_per {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 10px;
+                    }
+                }
+                .info_bom{
+                    color: #ccc;
+                    margin-top: 10px;
+                }
+            }
+            
+        }
+    }
+    .myLife_right {
+        width: 500px;
+        padding: 20px;
+        background-color: #fff;
+        min-height: 600px;
+        max-height: 800px;
+        .right_btn {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .right_text {
+            min-height: 200px;
+            max-height: 400px;
+        }
+    }
+    .myLife_bom{
+        margin-top: 80px;
+        padding: 0 20px;
+        .item_time{
+            .time_month{
+                font-size: 15px;
+            }
+            .time_day{
+                font-size: 30px;
+            }
+        }
+        .myLife_item {
+            margin-bottom: 30px;
+            display: flex;
+            padding-left: 80px;
+            .item_left {
+                width: 200px;
+                align-items: center;
+                margin-right: 15px;
+                display: flex;
+            }
+            .item_content {
+                font-size: 16px;
+            }
+            .item_block{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    
+}

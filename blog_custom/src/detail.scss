@@ -1,0 +1,26 @@
+.detail{
+    width: 900px;
+    min-height: 600px;
+    background-color: #fff;
+    margin: 50px auto;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, #fffaf5 3%, transparent 0), linear-gradient(1turn, #fffaf5 3%, transparent 0);
+    background-size: 20px 20px;
+    background-position: 50%;
+    .detail_title{
+        text-align: center;
+        font-size: 28px;
+        margin: 40px 0;
+        font-weight: bold;
+    }
+    .loading{
+        margin-top: 150px;
+    }
+    .detail_content{
+        padding: 30px 20px;
+    }
+    img{
+        width: 100%;
+    }
+}
+

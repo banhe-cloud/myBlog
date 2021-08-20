@@ -1,0 +1,72 @@
+@import "~antd/dist/antd.css";
+
+@font-face {
+  font-family: 'iconfont';  /* project id 2381448 */
+  src: url('//at.alicdn.com/t/font_2381448_qa78ydms21b.eot');
+  src: url('//at.alicdn.com/t/font_2381448_qa78ydms21b.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2381448_qa78ydms21b.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2381448_qa78ydms21b.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2381448_qa78ydms21b.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2381448_qa78ydms21b.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+}
+
+body {
+  background-color: #f4f5f5;
+  /* background-image: url('./bg.gif'); */
+}
+.top{
+  z-index: 10;
+}
+.app {
+  position: sticky;
+  top: 0;
+
+}
+.app_top {
+  /* background-color: #333333; */
+  /* background-image: linear-gradient(to right, #fbc2eb , #a6c1ee); */
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; background-blend-mode: multiply,multiply; */
+  background-image: linear-gradient(to right, #ec9292 0%, #afc1bb 19%, #4ec2de 42%, #ae94dc 79%, #66bfd6 100%);
+  height: 70px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
+  position: relative;
+  .top_title{
+    color: #fff !important;
+  }
+  .app_sign {
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .top_left{
+    font-size: 10px;
+    position: absolute;
+    left: 30px;
+    top: 35px;
+    font-style: italic
+  }
+  .item_font {
+    font-size: 14px;
+    color: #333;
+    margin-top: 2px;
+  }
+  
+  
+}
+
+.modal_input {
+  margin-top: 20px;
+}

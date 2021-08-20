@@ -1,0 +1,23 @@
+.sign{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-80%);
+    width: 450px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    .sign_user{
+        height: 40px;
+    }
+    .sign_password{
+        margin-top: 30px;
+        height: 40px;
+    }
+    .sign_btn{
+        width: 100%;
+        margin-top: 30px;
+        height: 40px;
+    }
+}

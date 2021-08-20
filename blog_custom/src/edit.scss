@@ -1,0 +1,56 @@
+
+.edit {
+    width: 60vw;
+    height: 500px;
+    
+    margin: 80px auto;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    .edit_catetory {
+        width: 150px;
+        overflow: auto;
+        border: 1px solid #ccc;
+        .catetory_item {
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            cursor: pointer;
+            .delete{
+                position: absolute;
+                right: 5px;
+                top: 3px;
+            }
+        }
+    }
+    .edit_content {
+        width: calc(100% - 150px);
+        height: 100%;
+        padding: 20px 25px;
+        background-color: #fff;
+        .catetory_item {
+            display: flex;
+            margin-bottom: 10px;
+            justify-content: space-between;
+            font-size: 15px;
+            cursor: pointer;
+            .item_set {
+                display: flex;
+            }
+        }
+    }
+    .edit_btn {
+        position: absolute;
+        right: 0;
+        top: -50px;
+    }
+    .set_edit{
+        color: #1890ff;
+    }
+    .set_delete{
+        color: #777;
+    }
+}

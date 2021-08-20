@@ -1,0 +1,23 @@
+.add{
+    width: 70vw;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px 20px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .add_title{
+        font-size: 30px;
+        border: none;
+        margin-bottom: 30px;
+    }
+    .add_set{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .rc-md-editor{
+        min-height: 500px;
+        max-height: 900px;
+    }
+}
