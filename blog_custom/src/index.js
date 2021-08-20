@@ -32,7 +32,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Suspense fallback={<div>loading....</div>}>
+        <Suspense fallback={<div>loading......</div>}>
           <Router>
             <App />
             <Switch>
